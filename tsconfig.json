@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // 模块采用import模式且不用转换，由webpack做转换（以利用其tree-shake特性）
+    "module": "es2015",
+    "target": "es5",
+    // 使用node模式加载（查找）模块
+    "moduleResolution": "node",
+    // 对没有export对模块import兼容（仅影响typescript对语法检查）
+    "allowSyntheticDefaultImports": true,
+    // 开启装饰器模式
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "noEmitOnError": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "outDir": "./dist/",
+    "strict": true,
+    // 识别基本对系统类库
+    "lib": [
+      "dom",
+      "es5",
+      "es2015"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

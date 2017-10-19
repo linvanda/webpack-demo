@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/vuemain.ts"],"names":["extend","console","log"],"mappings":"+GAEkB,QAAIA,WAItBC,QAAQC,IAAI","file":"vuemain.b9bb4c69356a628fe8ce.js","sourcesContent":["import Vue from 'vue';\n\nconst Component = Vue.extend({\n\n});\n\nconsole.log('hello vue 56');\n\n\n\n// WEBPACK FOOTER //\n// ./src/vuemain.ts"],"sourceRoot":""}
